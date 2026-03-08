@@ -5,10 +5,12 @@ function SkillCard({ title, icons}) {
     }
 
     return (
-        <div>
-            <h3>{title}</h3>
+        <div className="skill-card">
             <div>
-                {images}
+                <h3>{title}</h3>
+                <div>
+                    {images}
+                </div>
             </div>
         </div>
     )
